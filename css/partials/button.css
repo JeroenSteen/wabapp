@@ -1,0 +1,26 @@
+/* line 4, ../../sass/partials/button.sass */
+.btn {
+  background-color: #009ee2;
+  color: white;
+  font-family: Frutiger LT Std Light, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  margin: 0;
+  font-size: 16px;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+/* line 16, ../../sass/partials/button.sass */
+.btn:visited {
+  color: white;
+}
+
+/* line 18, ../../sass/partials/button.sass */
+.btn:hover {
+  color: #202020;
+  cursor: pointer;
+  background-color: #81cff4;
+}

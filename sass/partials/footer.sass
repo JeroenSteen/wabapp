@@ -1,0 +1,31 @@
+@import compass
+@import variables/_colors
+@import variables/_fonts
+
+#footer
+  background-color: $blue-dark
+  margin-bottom: 0
+  bottom: 0
+  width: inherit
+  font-family: $font-normal
+  color: white !important
+  box-shadow: 0 0 3px rgba(0,0,0,0.2)
+  +border-radius(10px 10px 0 0)
+  font-size: 12px
+  position: fixed
+  @include box-sizing(border-box)
+  @media (max-width: 767px)
+    display: none
+#footer_content
+  min-height: 200px
+#footer ul
+  margin-top: 10px
+#footer li
+  display: block
+#footer a
+  color: white !important
+#footer_toggle p
+  float: left
+  display: inline
+#footer_toggle i
+  font-size: 35px

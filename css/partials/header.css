@@ -1,0 +1,35 @@
+/* line 5, ../../sass/partials/header.sass */
+#header {
+  background-color: #006f9d;
+  min-height: 150px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 10, ../../sass/partials/header.sass */
+#header #logo {
+  text-align: center;
+}
+
+/* line 12, ../../sass/partials/header.sass */
+#header .menu {
+  background-image: url("../img/menu-bg.gif");
+  background-repeat: repeat-x;
+  width: 100%;
+}
+
+/* line 16, ../../sass/partials/header.sass */
+#header .menu ul {
+  float: left;
+  width: 100%;
+  background-color: #009ee2;
+}
+
+/* line 20, ../../sass/partials/header.sass */
+#header .menu li {
+  float: left;
+}

@@ -1,0 +1,39 @@
+@import compass
+
+$reach: 100
+$substract: 10
+$room: 10px
+
+@while $reach > 0
+	.mt-#{$reach}
+		margin-top: $reach#{px} !important
+	.mr-#{$reach}
+		margin-right: $reach#{px} !important
+	.mb-#{$reach}
+		margin-bottom: $reach#{px} !important
+	.ml-#{$reach}
+		margin-left: $reach#{px} !important
+	.m-#{$reach}
+		margin: $reach#{px} !important
+	.pt-#{$reach}
+		padding-top: $reach#{px} !important
+	.pr-#{$reach}
+		padding-right: $reach#{px} !important
+	.pb-#{$reach}
+		padding-bottom: $reach#{px} !important
+	.pl-#{$reach}
+		padding-left: $reach#{px} !important
+	.pm-#{$reach}
+		padding: $reach#{px} !important
+	.w-#{$reach}
+		width: $reach#{"%"} !important
+	$reach: $reach - $substract
+
+.mb-0
+	margin-bottom: 0 !important
+	
+.mt--10
+	margin-top: -10px
+	
+.mt--20
+	margin-top: -20px

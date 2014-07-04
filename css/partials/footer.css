@@ -1,0 +1,57 @@
+/* line 5, ../../sass/partials/footer.sass */
+#footer {
+  background-color: #006f9d;
+  margin-bottom: 0;
+  bottom: 0;
+  width: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white !important;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  font-size: 12px;
+  position: fixed;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  /* line 5, ../../sass/partials/footer.sass */
+  #footer {
+    display: none;
+  }
+}
+
+/* line 19, ../../sass/partials/footer.sass */
+#footer_content {
+  min-height: 200px;
+}
+
+/* line 21, ../../sass/partials/footer.sass */
+#footer ul {
+  margin-top: 10px;
+}
+
+/* line 23, ../../sass/partials/footer.sass */
+#footer li {
+  display: block;
+}
+
+/* line 25, ../../sass/partials/footer.sass */
+#footer a {
+  color: white !important;
+}
+
+/* line 27, ../../sass/partials/footer.sass */
+#footer_toggle p {
+  float: left;
+  display: inline;
+}
+
+/* line 30, ../../sass/partials/footer.sass */
+#footer_toggle i {
+  font-size: 35px;
+}

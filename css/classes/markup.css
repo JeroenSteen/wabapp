@@ -1,0 +1,19 @@
+/* line 4, ../../sass/classes/markup.sass */
+.dn {
+  display: none !important;
+}
+
+/* line 6, ../../sass/classes/markup.sass */
+.db {
+  display: block !important;
+}
+
+/* line 8, ../../sass/classes/markup.sass */
+.click:hover {
+  cursor: pointer;
+}
+
+/* line 10, ../../sass/classes/markup.sass */
+.tac {
+  text-align: center !important;
+}

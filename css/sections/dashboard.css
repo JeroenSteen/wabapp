@@ -1,0 +1,10 @@
+/* line 1, ../../sass/sections/dashboard.sass */
+#dashboard ul {
+  display: block;
+}
+
+/* line 3, ../../sass/sections/dashboard.sass */
+#dashboard li {
+  float: left;
+  display: block;
+}

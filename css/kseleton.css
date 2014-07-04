@@ -1,0 +1,4469 @@
+/* line 6, ../sass/kseleton.sass */
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 11, ../sass/kseleton.sass */
+.container .col {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 16, ../sass/kseleton.sass */
+.row {
+  margin-bottom: 20px;
+}
+
+/* line 19, ../sass/kseleton.sass */
+.col.alpha {
+  margin-left: 0;
+}
+
+/* line 21, ../sass/kseleton.sass */
+.col.omega {
+  margin-right: 0;
+}
+
+/* line 23, ../sass/kseleton.sass */
+.col.between {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 40, ../sass/kseleton.sass */
+.container .col1.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in1.col {
+  width: 10px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col2.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in2.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in2.col {
+  width: 20px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in2.col {
+  width: 10px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in2.col {
+  width: 4px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col3.col {
+  width: 160px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in3.col {
+  width: 70px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in3.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in3.col {
+  width: 25px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in3.col {
+  width: 16px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in3.col {
+  width: 10px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in3.col {
+  width: 5.71429px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in3.col {
+  width: 2.5px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col4.col {
+  width: 220px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in4.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in4.col {
+  width: 60px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in4.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in4.col {
+  width: 28px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in4.col {
+  width: 20px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in4.col {
+  width: 14.28571px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in4.col {
+  width: 10px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in4.col {
+  width: 6.66667px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in4.col {
+  width: 4px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in4.col {
+  width: 1.81818px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col5.col {
+  width: 280px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in5.col {
+  width: 130px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in5.col {
+  width: 80px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in5.col {
+  width: 55px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in5.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in5.col {
+  width: 30px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in5.col {
+  width: 22.85714px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in5.col {
+  width: 17.5px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in5.col {
+  width: 13.33333px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in5.col {
+  width: 10px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in5.col {
+  width: 7.27273px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in5.col {
+  width: 5px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in5.col {
+  width: 3.07692px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in5.col {
+  width: 1.42857px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col6.col {
+  width: 340px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in6.col {
+  width: 160px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in6.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in6.col {
+  width: 70px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in6.col {
+  width: 52px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in6.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in6.col {
+  width: 31.42857px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in6.col {
+  width: 25px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in6.col {
+  width: 20px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in6.col {
+  width: 16px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in6.col {
+  width: 12.72727px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in6.col {
+  width: 10px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in6.col {
+  width: 7.69231px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in6.col {
+  width: 5.71429px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in6.col {
+  width: 4px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in6.col {
+  width: 2.5px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col7.col {
+  width: 400px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in7.col {
+  width: 190px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in7.col {
+  width: 120px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in7.col {
+  width: 85px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in7.col {
+  width: 64px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in7.col {
+  width: 50px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in7.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in7.col {
+  width: 32.5px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in7.col {
+  width: 26.66667px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in7.col {
+  width: 22px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in7.col {
+  width: 18.18182px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in7.col {
+  width: 15px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in7.col {
+  width: 12.30769px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in7.col {
+  width: 10px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in7.col {
+  width: 8px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in7.col {
+  width: 6.25px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col8.col {
+  width: 460px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in8.col {
+  width: 220px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in8.col {
+  width: 140px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in8.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in8.col {
+  width: 76px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in8.col {
+  width: 60px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in8.col {
+  width: 48.57143px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in8.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in8.col {
+  width: 33.33333px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in8.col {
+  width: 28px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in8.col {
+  width: 23.63636px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in8.col {
+  width: 20px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in8.col {
+  width: 16.92308px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in8.col {
+  width: 14.28571px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in8.col {
+  width: 12px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in8.col {
+  width: 10px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col9.col {
+  width: 520px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in9.col {
+  width: 250px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in9.col {
+  width: 160px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in9.col {
+  width: 115px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in9.col {
+  width: 88px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in9.col {
+  width: 70px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in9.col {
+  width: 57.14286px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in9.col {
+  width: 47.5px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in9.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in9.col {
+  width: 34px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in9.col {
+  width: 29.09091px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in9.col {
+  width: 25px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in9.col {
+  width: 21.53846px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in9.col {
+  width: 18.57143px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in9.col {
+  width: 16px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in9.col {
+  width: 13.75px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col10.col {
+  width: 580px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in10.col {
+  width: 280px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in10.col {
+  width: 180px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in10.col {
+  width: 130px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in10.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in10.col {
+  width: 80px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in10.col {
+  width: 65.71429px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in10.col {
+  width: 55px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in10.col {
+  width: 46.66667px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in10.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in10.col {
+  width: 34.54545px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in10.col {
+  width: 30px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in10.col {
+  width: 26.15385px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in10.col {
+  width: 22.85714px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in10.col {
+  width: 20px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in10.col {
+  width: 17.5px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col11.col {
+  width: 640px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in11.col {
+  width: 310px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in11.col {
+  width: 200px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in11.col {
+  width: 145px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in11.col {
+  width: 112px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in11.col {
+  width: 90px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in11.col {
+  width: 74.28571px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in11.col {
+  width: 62.5px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in11.col {
+  width: 53.33333px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in11.col {
+  width: 46px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in11.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in11.col {
+  width: 35px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in11.col {
+  width: 30.76923px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in11.col {
+  width: 27.14286px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in11.col {
+  width: 24px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in11.col {
+  width: 21.25px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col12.col {
+  width: 700px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in12.col {
+  width: 340px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in12.col {
+  width: 220px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in12.col {
+  width: 160px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in12.col {
+  width: 124px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in12.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in12.col {
+  width: 82.85714px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in12.col {
+  width: 70px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in12.col {
+  width: 60px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in12.col {
+  width: 52px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in12.col {
+  width: 45.45455px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in12.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in12.col {
+  width: 35.38462px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in12.col {
+  width: 31.42857px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in12.col {
+  width: 28px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in12.col {
+  width: 25px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col13.col {
+  width: 760px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in13.col {
+  width: 370px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in13.col {
+  width: 240px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in13.col {
+  width: 175px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in13.col {
+  width: 136px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in13.col {
+  width: 110px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in13.col {
+  width: 91.42857px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in13.col {
+  width: 77.5px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in13.col {
+  width: 66.66667px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in13.col {
+  width: 58px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in13.col {
+  width: 50.90909px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in13.col {
+  width: 45px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in13.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in13.col {
+  width: 35.71429px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in13.col {
+  width: 32px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in13.col {
+  width: 28.75px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col14.col {
+  width: 820px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in14.col {
+  width: 400px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in14.col {
+  width: 260px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in14.col {
+  width: 190px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in14.col {
+  width: 148px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in14.col {
+  width: 120px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in14.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in14.col {
+  width: 85px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in14.col {
+  width: 73.33333px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in14.col {
+  width: 64px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in14.col {
+  width: 56.36364px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in14.col {
+  width: 50px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in14.col {
+  width: 44.61538px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in14.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in14.col {
+  width: 36px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in14.col {
+  width: 32.5px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col15.col {
+  width: 880px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in15.col {
+  width: 430px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in15.col {
+  width: 280px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in15.col {
+  width: 205px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in15.col {
+  width: 160px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in15.col {
+  width: 130px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in15.col {
+  width: 108.57143px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in15.col {
+  width: 92.5px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in15.col {
+  width: 80px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in15.col {
+  width: 70px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in15.col {
+  width: 61.81818px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in15.col {
+  width: 55px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in15.col {
+  width: 49.23077px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in15.col {
+  width: 44.28571px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in15.col {
+  width: 40px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in15.col {
+  width: 36.25px;
+}
+/* line 40, ../sass/kseleton.sass */
+.container .col16.col {
+  width: 940px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col2in16.col {
+  width: 460px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col3in16.col {
+  width: 300px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col4in16.col {
+  width: 220px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col5in16.col {
+  width: 172px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col6in16.col {
+  width: 140px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col7in16.col {
+  width: 117.14286px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col8in16.col {
+  width: 100px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col9in16.col {
+  width: 86.66667px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col10in16.col {
+  width: 76px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col11in16.col {
+  width: 67.27273px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col12in16.col {
+  width: 60px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col13in16.col {
+  width: 53.84615px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col14in16.col {
+  width: 48.57143px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col15in16.col {
+  width: 44px;
+}
+/* line 53, ../sass/kseleton.sass */
+.container .col16in16.col {
+  width: 40px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset1 {
+  padding-left: 60px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset2 {
+  padding-left: 120px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset3 {
+  padding-left: 180px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset4 {
+  padding-left: 240px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset5 {
+  padding-left: 300px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset6 {
+  padding-left: 360px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset7 {
+  padding-left: 420px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset8 {
+  padding-left: 480px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset9 {
+  padding-left: 540px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset10 {
+  padding-left: 600px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset11 {
+  padding-left: 660px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset12 {
+  padding-left: 720px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset13 {
+  padding-left: 780px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset14 {
+  padding-left: 840px;
+  margin-left: 0px;
+}
+
+/* line 60, ../sass/kseleton.sass */
+.container .offset15 {
+  padding-left: 900px;
+  margin-left: 0px;
+}
+
+/*Tablet Portrait; Design for width 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 66, ../sass/kseleton.sass */
+  .container {
+    width: 768px;
+  }
+
+  /* line 68, ../sass/kseleton.sass */
+  .container .col {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* line 71, ../sass/kseleton.sass */
+  .col.alpha {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  /* line 74, ../sass/kseleton.sass */
+  .col.omega {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  /* line 77, ../sass/kseleton.sass */
+  .alpha.omega {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 84, ../sass/kseleton.sass */
+  .container .col1.col {
+    width: 28px !important;
+  }
+
+  /* line 104, ../sass/kseleton.sass */
+  .col2in1.col {
+    width: 4px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col2.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in2.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in2.col {
+    width: 12px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in2.col {
+    width: 4px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col3.col {
+    width: 124px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in3.col {
+    width: 52px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in3.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in3.col {
+    width: 16px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in3.col {
+    width: 8.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in3.col {
+    width: 4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in3.col {
+    width: 0.57143px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col4.col {
+    width: 172px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in4.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in4.col {
+    width: 44px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in4.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in4.col {
+    width: 18.4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in4.col {
+    width: 12px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in4.col {
+    width: 7.42857px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in4.col {
+    width: 4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in4.col {
+    width: 1.33333px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col5.col {
+    width: 220px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in5.col {
+    width: 100px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in5.col {
+    width: 60px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in5.col {
+    width: 40px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in5.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in5.col {
+    width: 20px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in5.col {
+    width: 14.28571px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in5.col {
+    width: 10px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in5.col {
+    width: 6.66667px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in5.col {
+    width: 4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in5.col {
+    width: 1.81818px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col6.col {
+    width: 268px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in6.col {
+    width: 124px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in6.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in6.col {
+    width: 52px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in6.col {
+    width: 37.6px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in6.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in6.col {
+    width: 21.14286px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in6.col {
+    width: 16px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in6.col {
+    width: 12px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in6.col {
+    width: 8.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in6.col {
+    width: 6.18182px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in6.col {
+    width: 4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in6.col {
+    width: 2.15385px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in6.col {
+    width: 0.57143px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col7.col {
+    width: 316px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in7.col {
+    width: 148px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in7.col {
+    width: 92px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in7.col {
+    width: 64px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in7.col {
+    width: 47.2px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in7.col {
+    width: 36px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in7.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in7.col {
+    width: 22px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in7.col {
+    width: 17.33333px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in7.col {
+    width: 13.6px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in7.col {
+    width: 10.54545px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in7.col {
+    width: 8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in7.col {
+    width: 5.84615px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in7.col {
+    width: 4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in7.col {
+    width: 2.4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in7.col {
+    width: 1px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col8.col {
+    width: 364px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in8.col {
+    width: 172px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in8.col {
+    width: 108px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in8.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in8.col {
+    width: 56.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in8.col {
+    width: 44px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in8.col {
+    width: 34.85714px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in8.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in8.col {
+    width: 22.66667px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in8.col {
+    width: 18.4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in8.col {
+    width: 14.90909px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in8.col {
+    width: 12px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in8.col {
+    width: 9.53846px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in8.col {
+    width: 7.42857px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in8.col {
+    width: 5.6px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in8.col {
+    width: 4px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col9.col {
+    width: 412px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in9.col {
+    width: 196px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in9.col {
+    width: 124px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in9.col {
+    width: 88px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in9.col {
+    width: 66.4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in9.col {
+    width: 52px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in9.col {
+    width: 41.71429px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in9.col {
+    width: 34px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in9.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in9.col {
+    width: 23.2px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in9.col {
+    width: 19.27273px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in9.col {
+    width: 16px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in9.col {
+    width: 13.23077px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in9.col {
+    width: 10.85714px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in9.col {
+    width: 8.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in9.col {
+    width: 7px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col10.col {
+    width: 460px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in10.col {
+    width: 220px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in10.col {
+    width: 140px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in10.col {
+    width: 100px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in10.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in10.col {
+    width: 60px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in10.col {
+    width: 48.57143px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in10.col {
+    width: 40px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in10.col {
+    width: 33.33333px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in10.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in10.col {
+    width: 23.63636px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in10.col {
+    width: 20px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in10.col {
+    width: 16.92308px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in10.col {
+    width: 14.28571px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in10.col {
+    width: 12px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in10.col {
+    width: 10px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col11.col {
+    width: 508px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in11.col {
+    width: 244px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in11.col {
+    width: 156px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in11.col {
+    width: 112px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in11.col {
+    width: 85.6px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in11.col {
+    width: 68px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in11.col {
+    width: 55.42857px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in11.col {
+    width: 46px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in11.col {
+    width: 38.66667px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in11.col {
+    width: 32.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in11.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in11.col {
+    width: 24px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in11.col {
+    width: 20.61538px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in11.col {
+    width: 17.71429px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in11.col {
+    width: 15.2px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in11.col {
+    width: 13px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col12.col {
+    width: 556px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in12.col {
+    width: 268px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in12.col {
+    width: 172px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in12.col {
+    width: 124px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in12.col {
+    width: 95.2px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in12.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in12.col {
+    width: 62.28571px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in12.col {
+    width: 52px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in12.col {
+    width: 44px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in12.col {
+    width: 37.6px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in12.col {
+    width: 32.36364px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in12.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in12.col {
+    width: 24.30769px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in12.col {
+    width: 21.14286px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in12.col {
+    width: 18.4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in12.col {
+    width: 16px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col13.col {
+    width: 604px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in13.col {
+    width: 292px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in13.col {
+    width: 188px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in13.col {
+    width: 136px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in13.col {
+    width: 104.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in13.col {
+    width: 84px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in13.col {
+    width: 69.14286px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in13.col {
+    width: 58px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in13.col {
+    width: 49.33333px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in13.col {
+    width: 42.4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in13.col {
+    width: 36.72727px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in13.col {
+    width: 32px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in13.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in13.col {
+    width: 24.57143px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in13.col {
+    width: 21.6px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in13.col {
+    width: 19px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col14.col {
+    width: 652px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in14.col {
+    width: 316px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in14.col {
+    width: 204px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in14.col {
+    width: 148px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in14.col {
+    width: 114.4px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in14.col {
+    width: 92px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in14.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in14.col {
+    width: 64px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in14.col {
+    width: 54.66667px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in14.col {
+    width: 47.2px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in14.col {
+    width: 41.09091px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in14.col {
+    width: 36px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in14.col {
+    width: 31.69231px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in14.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in14.col {
+    width: 24.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in14.col {
+    width: 22px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col15.col {
+    width: 700px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in15.col {
+    width: 340px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in15.col {
+    width: 220px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in15.col {
+    width: 160px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in15.col {
+    width: 124px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in15.col {
+    width: 100px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in15.col {
+    width: 82.85714px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in15.col {
+    width: 70px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in15.col {
+    width: 60px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in15.col {
+    width: 52px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in15.col {
+    width: 45.45455px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in15.col {
+    width: 40px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in15.col {
+    width: 35.38462px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in15.col {
+    width: 31.42857px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in15.col {
+    width: 28px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in15.col {
+    width: 25px !important;
+  }
+
+  /* line 88, ../sass/kseleton.sass */
+  .container .col16.col {
+    width: 748px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col2in16.col {
+    width: 364px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col3in16.col {
+    width: 236px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col4in16.col {
+    width: 172px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col5in16.col {
+    width: 133.6px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col6in16.col {
+    width: 108px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col7in16.col {
+    width: 89.71429px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col8in16.col {
+    width: 76px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col9in16.col {
+    width: 65.33333px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col10in16.col {
+    width: 56.8px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col11in16.col {
+    width: 49.81818px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col12in16.col {
+    width: 44px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col13in16.col {
+    width: 39.07692px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col14in16.col {
+    width: 34.85714px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col15in16.col {
+    width: 31.2px !important;
+  }
+
+  /* line 113, ../sass/kseleton.sass */
+  .col16in16.col {
+    width: 28px !important;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset1 {
+    padding-left: 48px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset2 {
+    padding-left: 96px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset3 {
+    padding-left: 144px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset4 {
+    padding-left: 192px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset5 {
+    padding-left: 240px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset6 {
+    padding-left: 288px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset7 {
+    padding-left: 336px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset8 {
+    padding-left: 384px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset9 {
+    padding-left: 432px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset10 {
+    padding-left: 480px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset11 {
+    padding-left: 528px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset12 {
+    padding-left: 576px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset13 {
+    padding-left: 624px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset14 {
+    padding-left: 672px !important;
+    margin-left: 0px;
+  }
+
+  /* line 120, ../sass/kseleton.sass */
+  .container .offset15 {
+    padding-left: 720px !important;
+    margin-left: 0px;
+  }
+}
+/*Mobile Portrait; Design for width of 320px */
+@media only screen and (max-width: 767px) {
+  /* line 129, ../sass/kseleton.sass */
+  .container {
+    width: 300px;
+  }
+
+  /* line 131, ../sass/kseleton.sass */
+  .container .col {
+    margin: 0;
+  }
+
+  /* line 135, ../sass/kseleton.sass */
+  .container .col1.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset1 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in1.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in1.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col2.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset2 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in2.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in2.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col3.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset3 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in3.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in3.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col4.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset4 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in4.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in4.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col5.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset5 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in5.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in5.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col6.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset6 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in6.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in6.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col7.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset7 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in7.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in7.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col8.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset8 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in8.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in8.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col9.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset9 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in9.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in9.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col10.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset10 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in10.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in10.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col11.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset11 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in11.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in11.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col12.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset12 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in12.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in12.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col13.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset13 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in13.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in13.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col14.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset14 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in14.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in14.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col15.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset15 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in15.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in15.col {
+    width: 300px !important;
+  }
+  /* line 135, ../sass/kseleton.sass */
+  .container .col16.col {
+    width: 300px !important;
+  }
+  /* line 137, ../sass/kseleton.sass */
+  .container .offset16 {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col1in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col2in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col3in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col4in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col5in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col6in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col7in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col8in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col9in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col10in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col11in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col12in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col13in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col14in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col15in16.col {
+    width: 300px !important;
+  }
+  /* line 141, ../sass/kseleton.sass */
+  .container .col16in16.col {
+    width: 300px !important;
+  }
+}
+/*Mobile Landscape; Design for width 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 146, ../sass/kseleton.sass */
+  .container {
+    width: 420px;
+  }
+
+  /* line 148, ../sass/kseleton.sass */
+  .container .col {
+    margin: 0;
+  }
+
+  /* line 152, ../sass/kseleton.sass */
+  .container .col1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in1.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in1.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in2.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in2.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in3.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in3.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in4.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in4.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in5.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in5.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in6.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in6.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in7.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in7.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in8.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in8.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in9.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in9.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in10.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in10.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in11.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in11.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in12.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in12.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in13.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in13.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in14.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in14.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in15.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in15.col {
+    width: 420px !important;
+  }
+  /* line 152, ../sass/kseleton.sass */
+  .container .col16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col1in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col2in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col3in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col4in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col5in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col6in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col7in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col8in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col9in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col10in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col11in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col12in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col13in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col14in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col15in16.col {
+    width: 420px !important;
+  }
+  /* line 155, ../sass/kseleton.sass */
+  .container .col16in16.col {
+    width: 420px !important;
+  }
+}
+/*Clearing */
+/* line 160, ../sass/kseleton.sass */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 169, ../sass/kseleton.sass */
+.clearfix:before, .clearfix:after, .row:before, .row:after {
+  content: "\0020";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 176, ../sass/kseleton.sass */
+.row:after, .clearfix:after {
+  clear: both;
+}
+
+/* line 178, ../sass/kseleton.sass */
+.row, .clearfix {
+  zoom: 1;
+}
+
+/* line 182, ../sass/kseleton.sass */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

@@ -1,0 +1,16 @@
+/* line 1, ../../sass/styles/link.sass */
+a, a:visited {
+  color: #333333;
+  text-decoration: none;
+  outline: 0;
+}
+
+/* line 5, ../../sass/styles/link.sass */
+a:hover, a:focus {
+  color: black;
+}
+
+/* line 7, ../../sass/styles/link.sass */
+p a, p a:visited {
+  line-height: inherit;
+}

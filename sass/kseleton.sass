@@ -1,0 +1,188 @@
+//Grid van 16 rijen
+$grid : 16
+//960 pixels breedte
+$container_size : 960
+
+.container
+  position: relative
+  width: $container_size+px
+  margin: 0 auto
+  padding: 0
+.container .col
+  float: left
+  display: inline
+  margin-left: 10px
+  margin-right: 10px
+.row
+  margin-bottom: 20px
+//Kolommen in kolommen
+.col.alpha
+  margin-left: 0
+.col.omega
+  margin-right: 0
+.col.between
+  margin-left: 10px
+  margin-right: 10px
+
+//960 delen door 16 = 60px
+$block_size : $container_size / $grid
+
+//Namen voor classes
+$ones : "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"
+$teens : "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"
+$tens : "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"
+//nth($list, 1)
+
+.container
+  @for $blocks from 1 through $grid
+    //Breedte van block
+    $uitkomst : $blocks * $block_size - 20
+    .col#{$blocks}.col
+      width: $uitkomst+px
+    @for $inner_blocks from 1 through $grid
+      @if $inner_blocks != 1
+        $over : $inner_blocks - 1
+        //2 X 20 = 40, padding beide kanten
+        $ans : $over * 20
+        //460 - 40 = 420
+        $answer : $uitkomst - $ans
+        //Verdeling
+        $answer : $answer / $inner_blocks
+        @if $answer > 0
+          //Blok(verdeling) in blok
+          .col#{$inner_blocks}#{'in'}#{$blocks}.col
+            width: $answer+px
+
+//Bepaal offset van alle blokverhoudingen in grid
+@for $blocks from 1 through $grid
+  //Als aantal blokken niet het grid aantal is
+  @if $blocks != $grid
+    .container .offset#{$blocks}
+      padding-left: $blocks*60+px
+      margin-left: 0px
+
+/*Tablet Portrait; Design for width 768px*/
+@media only screen and (min-width: 768px) and (max-width: 959px)
+  .container
+    width: 768px
+  .container .col
+    margin-left: 10px
+    margin-right: 10px
+  .col.alpha
+    margin-left: 0
+    margin-right: 10px
+  .col.omega
+    margin-right: 0
+    margin-left: 10px
+  .alpha.omega
+    margin-left: 0
+    margin-right: 0
+  //Breedte van kolommen
+  @for $blocks from 1 through $grid
+    @if $blocks == 1
+      $uitkomst : 28
+      .container .col#{$blocks}.col
+        width: $uitkomst+px !important
+    @else
+      $uitkomst : 28+($blocks - 1)*48
+      .container .col#{$blocks}.col
+        width: $uitkomst+px !important
+    //Inner loops
+    @for $inner_blocks from 1 through $grid
+      @if $inner_blocks != 1
+        $over : $inner_blocks - 1
+        //2 X 20 = 40, padding beide kanten
+        $ans : $over * 20
+        //460 - 40 = 420
+        @if $blocks == 1
+          $uitkomst : 28
+          $answer : $uitkomst - $ans
+          //Verdeling
+          $answer : $answer / $inner_blocks
+          @if $answer > 0
+            //Blok(verdeling) in blok
+            .col#{$inner_blocks}#{'in'}#{$blocks}.col
+              width: $answer+px !important
+        @else
+          $uitkomst : 28+($blocks - 1)*48
+          $answer : $uitkomst - $ans
+          //Verdeling
+          $answer : $answer / $inner_blocks
+          @if $answer > 0
+            //Blok(verdeling) in blok
+            .col#{$inner_blocks}#{'in'}#{$blocks}.col
+              width: $answer+px !important
+
+  //Offset voor kolommen
+  @for $blocks from 1 through $grid
+    //Als aantal blokken niet het grid aantal is
+    @if $blocks != $grid
+      .container .offset#{$blocks}
+        padding-left: $blocks*48+px !important
+        margin-left: 0px
+
+//Kolommen klassen
+//Offset
+
+/*Mobile Portrait; Design for width of 320px*/
+@media only screen and (max-width: 767px)
+  .container
+    width: 300px
+  .container .col
+    margin: 0
+  .container
+    @for $blocks from 1 through $grid
+      .col#{$blocks}.col
+        width: 300px !important
+      .offset#{$blocks}
+        padding-left: 0
+        margin-left: 0px
+      @for $inner_blocks from 1 through $grid
+        .col#{$inner_blocks}#{'in'}#{$blocks}.col
+          width: 300px !important
+
+/*Mobile Landscape; Design for width 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px)
+  .container
+    width: 420px
+  .container .col
+    margin: 0
+  .container
+    @for $blocks from 1 through $grid
+      .col#{$blocks}.col
+        width: 420px !important
+      @for $inner_blocks from 1 through $grid
+        .col#{$inner_blocks}#{'in'}#{$blocks}.col
+          width: 420px !important
+
+/*Clearing*/
+//Self Clearing Goodness
+.container:after
+  content: "\0020"
+  display: block
+  height: 0
+  clear: both
+  visibility: hidden
+
+//Use clearfix class on parent to clear nested columns
+//or wrap each row of columns in a <div class="row">
+.clearfix:before,.clearfix:after,.row:before,.row:after
+  content: '\0020'
+  display: block
+  overflow: hidden
+  visibility: hidden
+  width: 0
+  height: 0
+.row:after,.clearfix:after
+  clear: both
+.row,.clearfix
+  zoom: 1
+
+//You can also use a <br class="clear" /> to clear columns
+.clear
+  clear: both
+  display: block
+  overflow: hidden
+  visibility: hidden
+  width: 0
+  height: 0

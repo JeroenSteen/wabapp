@@ -1,0 +1,66 @@
+/* line 1, ../../sass/styles/list.sass */
+ul, ol, li {
+  font-family: Arial;
+}
+
+/* line 3, ../../sass/styles/list.sass */
+ul, ol {
+  margin-bottom: 20px;
+}
+
+/* line 5, ../../sass/styles/list.sass */
+ul {
+  list-style: none outside;
+}
+
+/* line 7, ../../sass/styles/list.sass */
+ol {
+  list-style: decimal;
+}
+
+/* line 9, ../../sass/styles/list.sass */
+ol, ul.square, ul.circle, ul.disc {
+  margin-left: 30px;
+}
+
+/* line 11, ../../sass/styles/list.sass */
+ul.square {
+  list-style: square outside;
+}
+
+/* line 13, ../../sass/styles/list.sass */
+ul.circle {
+  list-style: circle outside;
+}
+
+/* line 15, ../../sass/styles/list.sass */
+ul.disc {
+  list-style: disc outside;
+}
+
+/* line 17, ../../sass/styles/list.sass */
+ul ul, ul ol, ol ol, ol ul {
+  margin: 4px 0 5px 30px;
+  font-size: 90%;
+}
+
+/* line 20, ../../sass/styles/list.sass */
+ul ul li, ul ol li, ol ol li, ol ul li {
+  margin-bottom: 6px;
+}
+
+/* line 22, ../../sass/styles/list.sass */
+li {
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+/* line 25, ../../sass/styles/list.sass */
+ul.large li {
+  line-height: 21px;
+}
+
+/* line 27, ../../sass/styles/list.sass */
+li p {
+  line-height: 21px;
+}

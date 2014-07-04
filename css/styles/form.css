@@ -1,0 +1,89 @@
+/* line 5, ../../sass/styles/form.sass */
+form {
+  margin-bottom: 20px;
+  font: 16px/16px Arial, Helvetica, sans-serif;
+}
+
+/* line 8, ../../sass/styles/form.sass */
+fieldset {
+  margin-bottom: 20px;
+}
+
+/* line 10, ../../sass/styles/form.sass */
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"], textarea, select {
+  border: 1px solid #cccccc;
+  padding: 6px 4px;
+  outline: none;
+  color: #202020;
+  margin: 0;
+  width: 210px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  background: white;
+  font-weight: bold;
+  height: 35px;
+}
+
+/* line 23, ../../sass/styles/form.sass */
+select {
+  padding: 0;
+  height: 45px;
+}
+
+/* line 26, ../../sass/styles/form.sass */
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="tel"]:focus, textarea:focus {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 28, ../../sass/styles/form.sass */
+input[type="file"] {
+  color: white;
+  font-family: Frutiger LT Std Light, Arial, Helvetica, sans-serif;
+  border: none;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* line 34, ../../sass/styles/form.sass */
+textarea {
+  min-height: 60px;
+}
+
+/* line 36, ../../sass/styles/form.sass */
+label, legend, h3 {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  color: #006f9d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 43, ../../sass/styles/form.sass */
+legend {
+  margin-bottom: 10px;
+}
+
+/* line 45, ../../sass/styles/form.sass */
+select {
+  width: 220px;
+}
+
+/* line 47, ../../sass/styles/form.sass */
+input[type="checkbox"] {
+  display: inline;
+}
+
+/* line 49, ../../sass/styles/form.sass */
+label span, legend span {
+  font-weight: normal;
+  font-size: 13px;
+  color: #cccccc;
+}
+
+/* line 53, ../../sass/styles/form.sass */
+*:focus, *:active {
+  outline: 0;
+  border: 0;
+}
